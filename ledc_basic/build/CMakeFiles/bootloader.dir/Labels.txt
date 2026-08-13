@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+/home/black/esp/ledc_basic/build/CMakeFiles/bootloader
+/home/black/esp/ledc_basic/build/CMakeFiles/bootloader.rule
+/home/black/esp/ledc_basic/build/CMakeFiles/bootloader-complete.rule
+/home/black/esp/ledc_basic/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+/home/black/esp/ledc_basic/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+/home/black/esp/ledc_basic/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+/home/black/esp/ledc_basic/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+/home/black/esp/ledc_basic/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+/home/black/esp/ledc_basic/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+/home/black/esp/ledc_basic/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule

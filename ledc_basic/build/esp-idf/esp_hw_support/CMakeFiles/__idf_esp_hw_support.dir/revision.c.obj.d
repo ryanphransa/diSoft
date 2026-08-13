@@ -1,0 +1,26 @@
+esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/revision.c.obj: \
+ /home/black/esp/esp-idf/components/esp_hw_support/revision.c \
+ /home/black/esp/esp-idf/components/esp_common/include/esp_assert.h \
+ /home/black/esp/esp-idf/components/esp_libc/platform_include/assert.h \
+ /home/black/.espressif/tools/xtensa-esp-elf/esp-16.1.0_20260609/xtensa-esp-elf/picolibc/include/stdlib.h \
+ /home/black/esp/esp-idf/components/esp_libc/platform_include/sys/cdefs.h \
+ /home/black/.espressif/tools/xtensa-esp-elf/esp-16.1.0_20260609/xtensa-esp-elf/picolibc/include/sys/cdefs.h \
+ /home/black/.espressif/tools/xtensa-esp-elf/esp-16.1.0_20260609/xtensa-esp-elf/picolibc/include/sys/config.h \
+ /home/black/.espressif/tools/xtensa-esp-elf/esp-16.1.0_20260609/xtensa-esp-elf/picolibc/include/machine/ieeefp.h \
+ /home/black/.espressif/tools/xtensa-esp-elf/esp-16.1.0_20260609/xtensa-esp-elf/picolibc/include/sys/features.h \
+ /home/black/.espressif/tools/xtensa-esp-elf/esp-16.1.0_20260609/xtensa-esp-elf/picolibc/include/picolibc.h \
+ /home/black/.espressif/tools/xtensa-esp-elf/esp-16.1.0_20260609/xtensa-esp-elf/picolibc/include/machine/_default_types.h \
+ /home/black/.espressif/tools/xtensa-esp-elf/esp-16.1.0_20260609/xtensa-esp-elf/picolibc/include/stdint.h \
+ /home/black/.espressif/tools/xtensa-esp-elf/esp-16.1.0_20260609/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/16.1.0/include/stddef.h \
+ /home/black/.espressif/tools/xtensa-esp-elf/esp-16.1.0_20260609/xtensa-esp-elf/picolibc/include/sys/_stdint.h \
+ /home/black/.espressif/tools/xtensa-esp-elf/esp-16.1.0_20260609/xtensa-esp-elf/picolibc/include/sys/_intsup.h \
+ /home/black/.espressif/tools/xtensa-esp-elf/esp-16.1.0_20260609/xtensa-esp-elf/picolibc/include/machine/stdlib.h \
+ /home/black/.espressif/tools/xtensa-esp-elf/esp-16.1.0_20260609/xtensa-esp-elf/picolibc/include/alloca.h \
+ /home/black/.espressif/tools/xtensa-esp-elf/esp-16.1.0_20260609/xtensa-esp-elf/picolibc/include/sys/_locale.h \
+ /home/black/.espressif/tools/xtensa-esp-elf/esp-16.1.0_20260609/xtensa-esp-elf/picolibc/include/sys/_wait.h \
+ /home/black/.espressif/tools/xtensa-esp-elf/esp-16.1.0_20260609/xtensa-esp-elf/picolibc/include/assert.h \
+ /home/black/esp/ledc_basic/build/config/esp/rev/min/full.cdep \
+ /home/black/esp/ledc_basic/build/config/esp/rev/max/full.cdep \
+ /home/black/esp/ledc_basic/build/config/compiler/assert/ndebug/evaluate.cdep \
+ /home/black/esp/ledc_basic/build/config/compiler/optimization/assertions/silent.cdep \
+ /home/black/esp/ledc_basic/build/config/libc/picolibc/newlib/compatibility.cdep

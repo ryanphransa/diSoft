@@ -1,0 +1,19 @@
+esp-idf/soc/CMakeFiles/__idf_soc.dir/dport_access_common.c.obj: \
+ /home/black/esp/esp-idf/components/soc/dport_access_common.c \
+ /home/black/.espressif/tools/xtensa-esp-elf/esp-16.1.0_20260609/xtensa-esp-elf/picolibc/include/stdint.h \
+ /home/black/esp/esp-idf/components/esp_libc/platform_include/sys/cdefs.h \
+ /home/black/.espressif/tools/xtensa-esp-elf/esp-16.1.0_20260609/xtensa-esp-elf/picolibc/include/sys/cdefs.h \
+ /home/black/.espressif/tools/xtensa-esp-elf/esp-16.1.0_20260609/xtensa-esp-elf/picolibc/include/sys/config.h \
+ /home/black/.espressif/tools/xtensa-esp-elf/esp-16.1.0_20260609/xtensa-esp-elf/picolibc/include/machine/ieeefp.h \
+ /home/black/.espressif/tools/xtensa-esp-elf/esp-16.1.0_20260609/xtensa-esp-elf/picolibc/include/sys/features.h \
+ /home/black/.espressif/tools/xtensa-esp-elf/esp-16.1.0_20260609/xtensa-esp-elf/picolibc/include/picolibc.h \
+ /home/black/.espressif/tools/xtensa-esp-elf/esp-16.1.0_20260609/xtensa-esp-elf/picolibc/include/machine/_default_types.h \
+ /home/black/.espressif/tools/xtensa-esp-elf/esp-16.1.0_20260609/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/16.1.0/include/stddef.h \
+ /home/black/.espressif/tools/xtensa-esp-elf/esp-16.1.0_20260609/xtensa-esp-elf/picolibc/include/sys/_stdint.h \
+ /home/black/.espressif/tools/xtensa-esp-elf/esp-16.1.0_20260609/xtensa-esp-elf/picolibc/include/sys/_intsup.h \
+ /home/black/esp/esp-idf/components/soc/esp32/include/soc/dport_access.h \
+ /home/black/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h \
+ /home/black/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
+ /home/black/esp/ledc_basic/build/config/libc/picolibc/newlib/compatibility.cdep \
+ /home/black/esp/ledc_basic/build/config/esp/system/single/core/mode.cdep \
+ /home/black/esp/ledc_basic/build/config/esp32/rev/min/full.cdep

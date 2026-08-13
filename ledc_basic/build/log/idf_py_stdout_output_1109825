@@ -1,0 +1,120 @@
+Command: make -j 14 all
+[  1%] Built target memory_ld_in_preprocess
+[  1%] Built target sections_ld_in_preprocess
+[  1%] Built target custom_bundle
+[  1%] Built target partition_table_bin
+[  1%] Built target _project_elf_src
+[  1%] Performing build step for 'bootloader'
+[  2%] Built target __idf_cxx
+[  3%] Built target __idf_pthread
+[  1%] Built target _project_elf_src
+[  5%] Built target bootloader_sections_ld_in_preprocess
+[  8%] Built target __idf_log
+[  8%] Built target bootloader_memory_ld_in_preprocess
+[  7%] Built target __idf_esp_libc
+[ 14%] Built target __idf_esp_rom
+[ 10%] Built target __idf_freertos
+[ 17%] Built target __idf_esp_common
+[ 26%] Built target __idf_esp_hw_support
+[ 20%] Built target __idf_esp_hw_support
+[ 27%] Built target __idf_esp_system
+[ 21%] Built target __idf_esp_hal_touch_sens
+[ 33%] Built target __idf_efuse
+[ 22%] Built target __idf_esp_hal_pmu
+[ 51%] Built target __idf_bootloader_support
+[ 23%] Built target __idf_esp_hal_gpio
+[ 55%] Built target __idf_esp_security
+[ 25%] Built target __idf_soc
+[ 56%] Built target __idf_esp_hal_security
+[ 26%] Built target __idf_heap
+[ 60%] Built target __idf_esp_hal_ana_conv
+[ 29%] Built target __idf_log
+[ 61%] Built target __idf_esp_hal_i2s
+[ 31%] Built target __idf_hal
+[ 62%] Built target __idf_esp_hal_wdt
+[ 32%] Built target __idf_esp_rom
+[ 64%] Built target __idf_esp_hal_timg
+[ 33%] Built target __idf_esp_common
+[ 65%] Built target __idf_micro-ecc
+[ 40%] Built target __idf_esp_system
+[ 66%] Built target __idf_esp_bootloader_format
+[ 69%] Built target __idf_spi_flash
+[ 44%] Built target __idf_spi_flash
+[ 71%] Built target __idf_esp_hal_mspi
+[ 48%] Built target __idf_bootloader_support
+[ 49%] Built target __idf_esp_hal_ana_conv
+[ 72%] Built target __idf_esp_hal_clock
+[ 50%] Built target __idf_esp_hal_i2s
+[ 76%] Built target __idf_esp_hal_gpspi
+[ 50%] Built target __idf_esp_hal_wdt
+[ 79%] Built target __idf_esp_hal_uart
+[ 50%] Built target everest
+[ 80%] Built target __idf_esp_hal_pmu
+[ 51%] Built target p256-m
+[ 84%] Built target __idf_esp_hal_gpio
+[ 88%] Built target __idf_hal
+[ 60%] Built target builtin
+[ 93%] Built target __idf_soc
+[ 60%] Built target pqcp
+[ 95%] Built target __idf_xtensa
+[ 62%] Built target extras
+[ 97%] Built target __idf_main
+[ 63%] Built target platform
+[ 98%] Built target bootloader.elf
+[ 65%] Built target utilities
+[100%] Built target gen_bootloader_binary
+[100%] Built target gen_project_binary
+[ 70%] Built target tfpsacrypto
+[ 74%] Built target mbedtls
+[ 77%] Built target mbedx509
+Bootloader binary size 0x65e0 bytes. 0xa20 bytes (9%) free.
+[ 78%] Built target __idf_mbedtls
+[100%] Built target bootloader_check_size
+[ 79%] Built target __idf_esp_driver_dma
+[100%] Built target app
+[ 80%] Built target __idf_esp_mm
+[ 81%] No install step for 'bootloader'
+[ 82%] Built target __idf_esp_pm
+[ 82%] Completed 'bootloader'
+[ 83%] Built target __idf_esp_hal_uart
+[ 83%] Built target bootloader
+[ 83%] Built target __idf_esp_driver_gpio
+[ 85%] Built target __idf_esp_security
+[ 86%] Built target __idf_esp_timer
+[ 86%] Built target __idf_esp_hal_timg
+[ 88%] Built target __idf_efuse
+[ 88%] Built target __idf_esp_partition
+[ 88%] Built target __idf_app_update
+[ 88%] Built target __idf_esp_app_format
+[ 89%] Built target __idf_esp_hal_security
+[ 90%] Built target __idf_esp_hal_mspi
+[ 90%] Built target __idf_esp_hal_clock
+[ 91%] Built target __idf_esp_hal_gpspi
+[ 91%] Built target __idf_esp_stdio
+[ 92%] Built target __idf_xtensa
+[ 92%] Built target __idf_esp_hal_ledc
+[ 93%] Built target __idf_esp_driver_i2s
+[ 94%] Built target __idf_esp_ringbuf
+[ 95%] Built target __idf_esp_driver_ledc
+[ 96%] Built target __idf_esp_driver_dac
+[ 98%] Built target __idf_esp_adc
+[ 98%] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/ledc_basic_example_main.c.obj
+[ 98%] Linking C static library libmain.a
+[ 98%] Built target __idf_main
+[ 99%] Generating esp-idf/esp_system/ld/sections.ld
+Skipping linker script generation, section names unchanged
+[ 99%] Built target __ldgen_output_sections.ld
+[ 99%] Linking CXX executable ledc.elf
+Checking ioctl definition overlaps
+[ 99%] Built target ledc.elf
+[100%] Generating binary image from built executable
+esptool v5.3.1
+Creating ESP32 image...
+Merged 3 ELF sections.
+Successfully created ESP32 image.
+Generated /home/black/esp/ledc_basic/build/ledc.bin
+[100%] Built target gen_ledc_binary
+[100%] Built target gen_project_binary
+ledc.bin binary size 0x24860 bytes. Smallest app partition is 0x100000 bytes. 0xdb7a0 bytes (86%) free.
+[100%] Built target app_check_size
+[100%] Built target app

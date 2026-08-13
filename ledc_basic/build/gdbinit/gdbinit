@@ -1,0 +1,2 @@
+source /home/black/esp/ledc_basic/build/gdbinit/symbols
+source /home/black/esp/ledc_basic/build/gdbinit/connect

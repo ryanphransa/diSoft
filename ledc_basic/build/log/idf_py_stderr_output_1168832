@@ -1,0 +1,69 @@
+Command: /home/black/.espressif/python_env/idf6.2_py3.14_env/bin/python /home/black/esp/esp-idf/tools/idf_monitor.py -p /dev/ttyUSB0 -b 115200 --toolchain-prefix xtensa-esp32-elf- --target esp32 --revision 0 /home/black/esp/ledc_basic/build/ledc.elf /home/black/esp/ledc_basic/build/bootloader/bootloader.elf -m '/home/black/.espressif/python_env/idf6.2_py3.14_env/bin/python' '/home/black/esp/esp-idf/tools/idf.py'
+[0;33m--- esp-idf-monitor 1.9.0 on /dev/ttyUSB0 115200[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H[0m
+[0m--- 0x400d8b3e: [0;33mtask_wdt_timeout_handling[0m[0m at [0;32m/home/black/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c[0m[0m:[1;31m437[0m
+[0m--- 0x400d8f08: [0;33mtask_wdt_isr[0m[0m at [0;32m/home/black/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c[0m[0m:[1;31m510[0m
+[0m--- 0x40082ca9: [0;33m_xt_lowint1[0m[0m at [0;32m/home/black/esp/esp-idf/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m1264[0m
+[0m--- 0x4000bfed: [0;33m_xtos_set_intlevel[0m[0m in [0;32mROM[0m
+[0m--- 0x40086442: [0;33mvPortClearInterruptMaskFromISR[0m[0m at [0;32m/home/black/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h[0m[0m:[1;31m565[0m
+[0m--- (inlined by) [0;33mvPortExitCritical[0m[0m at [0;32m/home/black/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c[0m[0m:[1;31m554[0m
+[0m--- 0x400dd79a: [0;33mxQueueGenericSend[0m[0m at [0;32m/home/black/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c[0m[0m:[1;31m1056[0m
+[0m--- 0x400dd88a: [0;33mxQueueGiveMutexRecursive[0m[0m at [0;32m/home/black/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c[0m[0m:[1;31m789[0m
+[0m--- 0x400827bb: [0;33mlock_release_generic[0m[0m at [0;32m/home/black/esp/esp-idf/components/esp_libc/src/locks.c[0m[0m:[1;31m209[0m
+[0m--- 0x40082889: [0;33m_lock_release_recursive[0m[0m at [0;32m/home/black/esp/esp-idf/components/esp_libc/src/locks.c[0m[0m:[1;31m223[0m
+[0m--- 0x400828c6: [0;33m__retarget_lock_release_recursive[0m[0m at [0;32m/home/black/esp/esp-idf/components/esp_libc/src/locks.c[0m[0m:[1;31m359[0m
+[0m--- 0x400d98d6: [0;33mfflush[0m[0m at [0;32m??[0m[0m:[1;31m?[0m
+[0m--- 0x400d97eb: [0;33m__bufio_get[0m[0m at [0;32m??[0m[0m:[1;31m?[0m
+[0m--- 0x400dc4ce: [0;33mgetc_unlocked[0m[0m at [0;32m??[0m[0m:[1;31m?[0m
+[0m--- 0x400da6c1: [0;33mscanf_getc[0m[0m at [0;32mlibc_stdio_vfscanf.c.o[0m[0m:[1;31m?[0m
+[0m--- 0x400da911: [0;33m__d_vfscanf[0m[0m at [0;32m??[0m[0m:[1;31m?[0m
+[0m--- 0x400d99d3: [0;33mscanf[0m[0m at [0;32m??[0m[0m:[1;31m?[0m
+[0m--- 0x400d4a79: [0;33mapp_main[0m[0m at [0;32m/home/black/esp/ledc_basic/main/ledc_basic_example_main.c[0m[0m:[1;31m142[0m
+[0m--- 0x400d3f09: [0;33mmain_task[0m[0m at [0;32m/home/black/esp/esp-idf/components/freertos/app_startup.c[0m[0m:[1;31m206[0m
+[0m--- 0x400dd32d: [0;33mvPortTaskWrapper[0m[0m at [0;32m/home/black/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c[0m[0m:[1;31m153[0m
+[0m--- 0x400d8b3e: [0;33mtask_wdt_timeout_handling[0m[0m at [0;32m/home/black/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c[0m[0m:[1;31m437[0m
+[0m--- 0x400d8f08: [0;33mtask_wdt_isr[0m[0m at [0;32m/home/black/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c[0m[0m:[1;31m510[0m
+[0m--- 0x40082ca9: [0;33m_xt_lowint1[0m[0m at [0;32m/home/black/esp/esp-idf/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m1264[0m
+[0m--- 0x4000bfed: [0;33m_xtos_set_intlevel[0m[0m in [0;32mROM[0m
+[0m--- 0x40086442: [0;33mvPortClearInterruptMaskFromISR[0m[0m at [0;32m/home/black/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h[0m[0m:[1;31m565[0m
+[0m--- (inlined by) [0;33mvPortExitCritical[0m[0m at [0;32m/home/black/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c[0m[0m:[1;31m554[0m
+[0m--- 0x400dd92d: [0;33mxQueueSemaphoreTake[0m[0m at [0;32m/home/black/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c[0m[0m:[1;31m1777[0m
+[0m--- 0x400dd9cc: [0;33mxQueueTakeMutexRecursive[0m[0m at [0;32m/home/black/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c[0m[0m:[1;31m835[0m
+[0m--- 0x40082751: [0;33mlock_acquire_generic[0m[0m at [0;32m/home/black/esp/esp-idf/components/esp_libc/src/locks.c[0m[0m:[1;31m158[0m
+[0m--- 0x40082849: [0;33m_lock_acquire_recursive[0m[0m at [0;32m/home/black/esp/esp-idf/components/esp_libc/src/locks.c[0m[0m:[1;31m174[0m
+[0m--- 0x400828b2: [0;33m__retarget_lock_acquire_recursive[0m[0m at [0;32m/home/black/esp/esp-idf/components/esp_libc/src/locks.c[0m[0m:[1;31m333[0m
+[0m--- 0x400d98ad: [0;33mfflush[0m[0m at [0;32m??[0m[0m:[1;31m?[0m
+[0m--- 0x400d97eb: [0;33m__bufio_get[0m[0m at [0;32m??[0m[0m:[1;31m?[0m
+[0m--- 0x400dc4ce: [0;33mgetc_unlocked[0m[0m at [0;32m??[0m[0m:[1;31m?[0m
+[0m--- 0x400da6c1: [0;33mscanf_getc[0m[0m at [0;32mlibc_stdio_vfscanf.c.o[0m[0m:[1;31m?[0m
+[0m--- 0x400da911: [0;33m__d_vfscanf[0m[0m at [0;32m??[0m[0m:[1;31m?[0m
+[0m--- 0x400d99d3: [0;33mscanf[0m[0m at [0;32m??[0m[0m:[1;31m?[0m
+[0m--- 0x400d4a79: [0;33mapp_main[0m[0m at [0;32m/home/black/esp/ledc_basic/main/ledc_basic_example_main.c[0m[0m:[1;31m142[0m
+[0m--- 0x400d3f09: [0;33mmain_task[0m[0m at [0;32m/home/black/esp/esp-idf/components/freertos/app_startup.c[0m[0m:[1;31m206[0m
+[0m--- 0x400dd32d: [0;33mvPortTaskWrapper[0m[0m at [0;32m/home/black/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c[0m[0m:[1;31m153[0m
+[0m--- 0x400dd34b: [0;33mvPortTaskWrapper[0m[0m at [0;32m/home/black/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c[0m[0m:[1;31m157[0m
+[0m--- 0x40086109: [0;33mpanic_abort[0m[0m at [0;32m/home/black/esp/esp-idf/components/esp_system/panic.c[0m[0m:[1;31m491[0m
+[0m--- 0x400860d1: [0;33mesp_system_abort[0m[0m at [0;32m/home/black/esp/esp-idf/components/esp_system/port/esp_system_chip.c[0m[0m:[1;31m87[0m
+[0m--- 0x40085cd9: [0;33mabort[0m[0m at [0;32m/home/black/esp/esp-idf/components/esp_libc/src/abort.c[0m[0m:[1;31m38[0m
+[0m--- 0x400dd34b: [0;33mvPortTaskWrapper[0m[0m at [0;32m/home/black/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c[0m[0m:[1;31m157[0m
+[0m--- 0x400dd34b: [0;33mvPortTaskWrapper[0m[0m at [0;32m/home/black/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c[0m[0m:[1;31m157[0m
+[0m--- 0x40086109: [0;33mpanic_abort[0m[0m at [0;32m/home/black/esp/esp-idf/components/esp_system/panic.c[0m[0m:[1;31m491[0m
+[0m--- 0x400860d1: [0;33mesp_system_abort[0m[0m at [0;32m/home/black/esp/esp-idf/components/esp_system/port/esp_system_chip.c[0m[0m:[1;31m87[0m
+[0m--- 0x40085cd9: [0;33mabort[0m[0m at [0;32m/home/black/esp/esp-idf/components/esp_libc/src/abort.c[0m[0m:[1;31m38[0m
+[0m--- 0x400dd34b: [0;33mvPortTaskWrapper[0m[0m at [0;32m/home/black/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c[0m[0m:[1;31m157[0m
+[0m--- 0x400dd34b: [0;33mvPortTaskWrapper[0m[0m at [0;32m/home/black/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c[0m[0m:[1;31m157[0m
+[0m--- 0x40086109: [0;33mpanic_abort[0m[0m at [0;32m/home/black/esp/esp-idf/components/esp_system/panic.c[0m[0m:[1;31m491[0m
+[0m--- 0x400860d1: [0;33mesp_system_abort[0m[0m at [0;32m/home/black/esp/esp-idf/components/esp_system/port/esp_system_chip.c[0m[0m:[1;31m87[0m
+[0m--- 0x40085cd9: [0;33mabort[0m[0m at [0;32m/home/black/esp/esp-idf/components/esp_libc/src/abort.c[0m[0m:[1;31m38[0m
+[0m--- 0x400dd34b: [0;33mvPortTaskWrapper[0m[0m at [0;32m/home/black/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c[0m[0m:[1;31m157[0m
+[0m--- 0x400dd34b: [0;33mvPortTaskWrapper[0m[0m at [0;32m/home/black/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c[0m[0m:[1;31m157[0m
+[0m--- 0x40086109: [0;33mpanic_abort[0m[0m at [0;32m/home/black/esp/esp-idf/components/esp_system/panic.c[0m[0m:[1;31m491[0m
+[0m--- 0x400860d1: [0;33mesp_system_abort[0m[0m at [0;32m/home/black/esp/esp-idf/components/esp_system/port/esp_system_chip.c[0m[0m:[1;31m87[0m
+[0m--- 0x40085cd9: [0;33mabort[0m[0m at [0;32m/home/black/esp/esp-idf/components/esp_libc/src/abort.c[0m[0m:[1;31m38[0m
+[0m--- 0x400dd34b: [0;33mvPortTaskWrapper[0m[0m at [0;32m/home/black/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c[0m[0m:[1;31m157[0m
+[0m--- 0x400dd34b: [0;33mvPortTaskWrapper[0m[0m at [0;32m/home/black/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c[0m[0m:[1;31m157[0m
+[0m--- 0x40086109: [0;33mpanic_abort[0m[0m at [0;32m/home/black/esp/esp-idf/components/esp_system/panic.c[0m[0m:[1;31m491[0m
+[0m--- 0x400860d1: [0;33mesp_system_abort[0m[0m at [0;32m/home/black/esp/esp-idf/components/esp_system/port/esp_system_chip.c[0m[0m:[1;31m87[0m
+[0m--- 0x40085cd9: [0;33mabort[0m[0m at [0;32m/home/black/esp/esp-idf/components/esp_libc/src/abort.c[0m[0m:[1;31m38[0m
+[0m--- 0x400dd34b: [0;33mvPortTaskWrapper[0m[0m at [0;32m/home/black/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c[0m[0m:[1;31m157[0m
+[0m

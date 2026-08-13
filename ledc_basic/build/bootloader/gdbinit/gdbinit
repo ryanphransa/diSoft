@@ -1,0 +1,2 @@
+source /home/black/esp/ledc_basic/build/bootloader/gdbinit/symbols
+source /home/black/esp/ledc_basic/build/bootloader/gdbinit/connect

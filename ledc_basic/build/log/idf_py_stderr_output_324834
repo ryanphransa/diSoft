@@ -1,0 +1,9 @@
+Command: make -j 14 all
+/home/black/esp/ledc_basic/main/ledc_basic_example_main.c: In function 'app_main':
+/home/black/esp/ledc_basic/main/ledc_basic_example_main.c:138:9: warning: unused variable 'val' [-Wunused-variable]
+  138 |     int val = 300;
+      |         ^~~
+/home/black/esp/ledc_basic/main/ledc_basic_example_main.c: At top level:
+/home/black/esp/ledc_basic/main/ledc_basic_example_main.c:68:17: warning: 'dac_output_task' defined but not used [-Wunused-function]
+   68 | static uint32_t dac_output_task(void *args, uint32_t val)
+      |                 ^~~~~~~~~~~~~~~
